@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lan='eng'>
+<head>
+<meta charset='utf-8'>
+<title>Survey Form</title>
+<link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+  <h1 id='title'>Survey Form</h1>
+  <p id='description'>Description</p>
+  <form id='survey-form'>
+    <fieldset>
+      <label id='name-label' for='name'>Name:
+        <input type='text' id='name' required placeholder='Please type your name..'>
+      </label>
+      <label id='email-label' for='email'>Email:
+        <input type='email' id='email' required placeholder='Please type an e-mail'>
+      </label>
+       <label id='number-label' for='number'>Number:
+        <input type='number' id='number' required min='1' max='100' placeholder='From 1 to 100'>
+      </label>
+      <label> Select from the menu: <select id='dropdown'></label>
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+      <label>Please choise this:
+        <input type='radio' name='radio-name' value='1'>
+        <input type='radio' name='radio-name' value='2'>
+        <label>Please mark this:
+          <input type='checkbox' value='1'>
+          </label>
+          <label>Or mark this:
+          <input type='checkbox' value='2'>
+          </label>
+          <label>Comment:
+          <textarea></textarea>
+          </label>
+          <input type='submit' id='submit'>
+
+      </label>
+    <fieldset>
+  </form>
+</body>
+</html>
